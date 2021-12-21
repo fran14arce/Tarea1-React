@@ -41,7 +41,7 @@ class ListaClase extends React.Component {
         prioridad={this.selectPrioridad.value}
       />
     );
-    
+    this.inputText.value = '';
     this.changeState();
   }
 
